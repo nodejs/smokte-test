@@ -1,6 +1,17 @@
 ## Smoke Test
 
-Smoke testing node core.
+The Smoke Test Working Group is responsible for making sure releases of Node.js
+and io.js do not break community modules. Smoke test will build the tooling and
+maintaining the infrastructure to achieve this.
+
+Our responsibilities are:
+
+* Building and maintaining [CITGM](https://github.com/nodejs/citgm) GitHub
+  repository, including code, issues and documentation.
+* Building and maintaining the infrastructure to run the tests. This is still
+  being defined.
+* Generating a list of negatively impacted modules by a given release or pull
+  request.
 
 <a name="collaborators"></a>
 ### WG Members / Collaborators
